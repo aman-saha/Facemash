@@ -40,7 +40,7 @@
         padding-right:20; 
     }
 </style>
-    <form action="demo.php" method="POST">
+    <form action="facemash.php" method="POST">
         <div class="jumbotron">
         <div class="heading">
             <h1 style="text-align:center; padding:10px">MASHED
@@ -114,7 +114,7 @@
     //$k2=explode(')',$r2[1]);
     $rank1=(int)($k1[0]);
     $rank2=(int)($k2[0]);*/
-    $new_location="demo.php";
+    $new_location="facemash.php";
 ?>
     <div><input type="image" src="<?php echo $path . $img1;?>" alt="" id="i1" name="image1" height="300px" width="300px" style="float:left"></div>
         <style>
@@ -122,7 +122,7 @@
         </style>
             <p><strong>OR</strong></p>
     <div><input type="image" src="<?php echo $path . $img2;?>" alt="" id="i2" name="image2" height="300px" width="300px" style="float:right"></div>
-    <a href="demo.php" id="no">NO ONE ?</a>
+    <a href="facemash.php" id="no">NO ONE ?</a>
     <?php //echo "$rank1";?>
 </body>
     </form>
